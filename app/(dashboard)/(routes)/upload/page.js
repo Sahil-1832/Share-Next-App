@@ -8,7 +8,7 @@ import { useUser } from '@clerk/nextjs'
 import {generateRandomString} from '../../../_utils/GenerateRandomString'
 import { X } from 'lucide-react'
 import { useRouter } from 'next/navigation'
-import { PlanContext } from "../../layout";
+import  PlanContext from "../../_components/PlanContext";
 function Upload() {
   const {user} = useUser();
   const [progress,setProgress]=useState();

@@ -3,7 +3,7 @@ import React, { useContext, useState, useEffect } from "react";
 import { deleteDoc, doc, getFirestore, collection, query, where, getDocs } from "firebase/firestore";
 import { app } from "/firebaseConfig";
 import { useUser } from "@clerk/nextjs";
-import { PlanContext } from "../../layout";
+import PlanContext from "../../_components/PlanContext";
 
 const Files = () => {
   const { user } = useUser();

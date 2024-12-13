@@ -1,13 +1,12 @@
 "use client";
 
-import React, { createContext, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { doc, deleteDoc, getFirestore, collection, query, where, getDocs } from "firebase/firestore";
 import { useUser } from "@clerk/nextjs";
 import { app } from "/firebaseConfig";
 import SideNav from "./_components/SideNav";
 import TopHeader from "./_components/TopHeader";
-
-export const PlanContext = createContext(null);
+import PlanContext from "./_components/PlanContext"
 function Layout({ children }) {
   const [isSideNavOpen, setIsSideNavOpen] = useState(false);
   const [plan, setPlan] = useState(null);
