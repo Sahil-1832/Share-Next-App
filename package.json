@@ -1,5 +1,5 @@
 {
-  "name": "file-share",
+  "name": "share-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.5"
+    "@clerk/nextjs": "^5.3.6",
+    "@react-email/components": "0.0.25",
+    "@react-email/render": "^1.0.3",
+    "@types/nodemailer": "^6.4.17",
+    "axios": "^1.7.7",
+    "firebase": "^10.14.0",
+    "lucide": "^0.433.0",
+    "lucide-react": "^0.439.0",
+    "lucide-vue-next": "^0.439.0",
+    "next": "^14.2.7",
+    "nodemailer": "^6.9.16",
+    "razorpay": "^2.9.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-hot-toast": "^2.4.1",
+    "react-loader-spinner": "^6.1.6",
+    "resend": "^4.0.0"
   },
   "devDependencies": {
+    "@types/node": "22.5.1",
+    "@types/react": "18.3.4",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "react-email": "3.0.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.5.4"
   }
 }
