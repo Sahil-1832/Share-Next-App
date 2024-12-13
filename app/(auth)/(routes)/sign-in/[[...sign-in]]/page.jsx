@@ -28,7 +28,7 @@ export default function Page() {
             </a>
 
             <h2 className="mt-6 text-3xl font-extrabold text-white sm:text-4xl md:text-5xl">
-              Welcome to SHARE NEXT. 
+              Welcome to SHARE NEXT.  
             </h2>
 
             <p className="mt-4 leading-relaxed text-white/90 text-lg">
