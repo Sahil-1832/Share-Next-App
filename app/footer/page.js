@@ -85,7 +85,7 @@ export default function Footer(){
   return (
     <div className="footer bg-gray-800 text-white py-6">
       <div className="text-center">
-        <p className="text-sm">&copy; {new Date().getFullYear()} SHARE NEXT. All rights reserved.</p>
+        <p className="text-sm">&copy; {new Date().getFullYear()} SHARE NEXT. All rights reserved.  </p>
         <ul className="flex justify-center space-x-6 mt-4 text-sm">
           <li
             className="cursor-pointer hover:underline"
