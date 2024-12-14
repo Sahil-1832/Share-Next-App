@@ -72,7 +72,6 @@ export default function Footer(){
         <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
         <p>We're here to help! Reach out to us for support or inquiries:</p>
         <ul className="list-disc pl-5 mt-2">
-          <li>Phone: +91-7876202496 (Available Monday to Friday, 9 AM to 6 PM)</li>
           <li>Email: sharenext.connect@gmail.com (We respond within 24-48 hours)</li>
           <li>Address: SHARE NEXT, Kangra, Himachal Pradesh, India - 176201</li>
           <li>Social Media: Connect with us on our official platforms for the latest updates.</li>
