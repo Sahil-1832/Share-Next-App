@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Header from '../_components/Header';
+import Footer from '../footer/page';
 
 export default function AboutUsPage() {
   return (
@@ -61,9 +62,7 @@ export default function AboutUsPage() {
         </div>
       </section>
 
-      <footer className="py-8 bg-gray-800 text-white text-center">
-        <p>© 2024 Share Next. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
