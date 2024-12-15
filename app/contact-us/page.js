@@ -65,7 +65,7 @@ const ContactUs = () => {
             Stay connected and follow us on LinkedIn for updates, articles, and job opportunities.
           </p>
           <a
-            href="https://www.linkedin.com/in/sahil-sharma-069635282/"
+            href="https://www.linkedin.com/in/sahil1832"
             className="mt-6 inline-block rounded-md border border-blue-700 px-4 py-2 text-blue-700 hover:bg-blue-700 hover:text-white transition"
           >
             Visit LinkedIn
